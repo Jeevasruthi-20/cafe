@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Café Reverie</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; 
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #8B4513; /* Brown */
+        }
+
+        .product-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 45%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #8B4513; /* Brown */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #5E321E;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background: white;
+            color: black;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        table th, table td {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #4b2e83;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Products</h1>
+
+    <div class="product-container">
+        <div class="product">
+            <h2>Espresso</h2>
+            <img src="1.jpg" alt="Espresso">
+            <p>Rich and creamy shot of espresso.</p>
+            <p><strong>Price: Rs.230</strong></p>
+        </div>
+        <div class="product">
+            <h2>Cappuccino</h2>
+            <img src="2.jpg" alt="Cappuccino">
+            <p>Espresso with steamed milk and foam.</p>
+            <p><strong>Price: Rs.300</strong></p>
+        </div>
+        <div class="product"> 
+            <h2>Mocha</h2> 
+            <img src="4.1.jpg" alt="Mocha"> 
+            <p>Espresso with chocolate and milk.</p> 
+            <p><strong>Price: Rs.320</strong></p> 
+        </div>
+        <div class="product"> 
+            <h2>Frappe</h2> 
+            <img src="3.jpg" alt="Frappe"> 
+            <p>Iced blended coffee drink.</p> 
+            <p><strong>Price: Rs.350</strong></p> 
+        </div>
+    </div>
+
+    <a href="index.html">Back to Home</a>
+
+</body>
+</html>
